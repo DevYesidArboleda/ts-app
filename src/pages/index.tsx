@@ -1,4 +1,5 @@
 import Counter from "@/components/Counter";
+import { TimerPadre } from "@/components/TimerPadre";
 import { Usuario } from "@/components/Usuario";
 
 export default function Home() {
@@ -8,6 +9,8 @@ export default function Home() {
       <br />
       <Counter/>
       <Usuario/>
+      -----------
+      <TimerPadre/>      
     </div>
   )
 }
